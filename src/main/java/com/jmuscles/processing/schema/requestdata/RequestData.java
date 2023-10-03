@@ -16,6 +16,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY)
 @JsonSubTypes({ @JsonSubTypes.Type(value = DemoRequestData.class, name = "demo"),
+		@JsonSubTypes.Type(value = CustomRequestData.class, name = "custom"),
 		@JsonSubTypes.Type(value = RestRequestData.class, name = "rest"),
 		@JsonSubTypes.Type(value = SequentialRequestData.class, name = "sequential"),
 		@JsonSubTypes.Type(value = SQLProcedureRequestData.class, name = "sql-procedure"),
