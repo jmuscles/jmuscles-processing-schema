@@ -4,7 +4,7 @@
 	
 	<groupId>com.jmuscles</groupId>
 	<artifactId>jmuscles-processing-schema</artifactId>
-	<version>1.0</version>
+	<version>1.1</version>
 	<name>jmuscles-processing-schema</name>
 
 	<url>http://maven.apache.org</url>
